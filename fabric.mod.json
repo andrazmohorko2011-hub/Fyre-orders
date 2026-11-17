@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "donutauction",
+  "version": "1.1.0",
+  "name": "Donut Auction Island",
+  "description": "Auction timer + top bid Dynamic Island HUD + payment shoutouts.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.donutauction.AuctionMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
